@@ -1,0 +1,77 @@
+{
+    "marketplace" : {
+        "target" : "marketplace",
+        "regex" : "/^.*\b(Watches|Clocks)\b.*$",
+        "required" : true
+    },
+    "customer_id" : {
+        "target" : "customer_id",
+        "regex" : "/^\\d*[1-9]\\d*$/",
+        "required" : true
+    },	
+    "review_id"	: {
+        "target" : "review_id",
+        "regex" : "/^[A-Z0-9]*$/",
+        "required" : true
+    },
+    "product_id" : {
+        "target" : "product_id",
+        "regex" : "/^[A-Z0-9]*$/",
+        "required" : true
+    },	
+    "product_parent" : {
+        "target" : "product_parent",
+        "regex" : "/^\\d*[1-9]\\d*$/",
+        "required" : true
+    },	
+    "product_title" : {
+        "target" : "product_title",
+        "regex" : "/.*/",
+        "required" : true
+    },	
+    "product_category" : {
+        "target" : "product_category",
+        "regex" : "/^.*\b(Watches|Clocks)\b.*$",
+        "required" : true
+    },	
+    "star_rating" : {
+        "target" : "star_rating",
+        "regex" : "/^[0-5]{1}$/",
+        "required" : true
+    },	
+    "helpful_votes" : {
+        "target" : "helpful_votes",
+        "regex" : "/^\\d*[1-9]\\d*$/",
+        "required" : true
+    },	
+    "total_votes" : {
+        "target" : "total_votes",
+        "regex" : "/^\\d*[1-9]\\d*$/",
+        "required" : true
+    },	
+    "vine" : {
+        "target" : "customer_id",
+        "regex" : "/^.*\b(Y|N)\b.*$",
+        "required" : true
+    },	
+    "verified_purchase" : {
+        "target" : "verified_purchase",
+        "regex" : "/^.*\b(Y|N)\b.*$",
+        "required" : true
+    },	
+    "review_headline" : {
+        "target" : "review_headline",
+        "regex" : "/.*/",
+        "required" : true
+    },	
+    "review_body" : {
+        "target" : "review_body",
+        "regex" : "/.*/",
+        "required" : true
+    },	
+    "review_date" : {
+        "target" : "customer_id",
+        "regex" : "^(?:(?:31(\/|-|\\.)(?:0?[13578]|1[02]))\\1|(?:(?:29|30)(\/|-|\\.)(?:0?[13-9]|1[0-2])\\2))(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$|^(?:29(\/|-|\\.)0?2\\3(?:(?:(?:1[6-9]|[2-9]\\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\\d|2[0-8])(\/|-|\\.)(?:(?:0?[1-9])|(?:1[0-2]))\\4(?:(?:1[6-9]|[2-9]\\d)?\\d{2})$",
+        "required" : true
+    }
+}
