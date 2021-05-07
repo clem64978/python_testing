@@ -11,3 +11,13 @@ https://medium.com/@bogdan.cojocar/how-to-do-column-validation-with-pandas-bbeb3
 
 Test
 
+https://levelup.gitconnected.com/how-to-install-and-manage-multiple-python-versions-on-windows-10-c90098d7ba5a
+
+# Python Enviroment Configuration
+## to install
+
+`.\env\Scripts\active.bat`
+`python -m pip install -r requirements.txt`
+
+## to leave
+`deactivate`
